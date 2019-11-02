@@ -1,0 +1,22 @@
+{
+  "name": "boilerplat",
+  "version": "1.0.0",
+  "description": "NodeJs boiletPlat with docker config",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Anas El Fatihi",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^14.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
